@@ -1,0 +1,15 @@
+macOS
+.DS_Store
+
+IDE
+.idea/
+.vscode/
+
+Environment files
+.env
+
+Logs
+.log
+
+Temporary files
+.tmp
