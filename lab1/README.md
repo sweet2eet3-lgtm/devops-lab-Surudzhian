@@ -244,6 +244,9 @@ http://localhost:8080
 ```text
 Welcome to nginx!
 ```
+<img width="730" height="343" alt="Снимок экрана 2026-09-21 в 06 08 09" src="https://github.com/user-attachments/assets/1b5a4862-9874-4c4c-92af-9f8c7181c9a4" />
+![Uploading Снимок экрана 2026-09-21 в 06.08.30.png…]()
+
 
 Это подтвердило, что:
 
