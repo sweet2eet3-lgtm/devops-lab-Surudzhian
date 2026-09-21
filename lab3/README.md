@@ -58,6 +58,8 @@ curl http://localhost:9100/metrics
 ```
 
 В ответ были получены метрики Node Exporter, например `go_gc_duration_seconds` и `go_goroutines`.
+<img width="1462" height="754" alt="Снимок экрана 2026-09-21 в 07 41 10" src="https://github.com/user-attachments/assets/e33a9082-465a-4a02-a361-d8410705b3fa" />
+
 
 ---
 
@@ -97,6 +99,7 @@ Node Exporter был подключён к той же Docker-сети:
     up{instance="localhost:9090", job="prometheus"} 1
 
 Значение `1` означает, что оба источника метрик доступны.
+<img width="1469" height="423" alt="Снимок экрана 2026-09-21 в 07 42 08" src="https://github.com/user-attachments/assets/ff1f3734-e652-4e8a-90f9-a35a9594d879" />
 
 ---
 
@@ -125,6 +128,8 @@ Grafana была запущена в Docker-контейнере и подклю
 Проверка подключения завершилась успешно сообщением:
 
     Successfully queried the Prometheus API.
+
+<img width="1470" height="802" alt="Снимок экрана 2026-09-21 в 07 44 49" src="https://github.com/user-attachments/assets/37e487e4-29d6-4190-b872-2aebe7001b12" />
 
 ---
 
