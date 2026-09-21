@@ -58,7 +58,8 @@ curl http://localhost:9100/metrics
 ```
 
 В ответ были получены метрики Node Exporter, например `go_gc_duration_seconds` и `go_goroutines`.
-<img width="1462" height="754" alt="Снимок экрана 2026-09-21 в 07 41 10" src="https://github.com/user-attachments/assets/e33a9082-465a-4a02-a361-d8410705b3fa" />
+![Uploading Снимок экрана 2026-09-21 в 07.50.27.png…]()
+
 
 
 ---
