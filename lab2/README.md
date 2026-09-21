@@ -101,6 +101,7 @@ haru1meow/my-flask-app
 В качестве значения `DOCKER_PASSWORD` используется не обычный пароль, а Personal Access Token Docker Hub с правами, необходимыми для публикации Docker-образов.
 
 Сам токен не записывается в код workflow, README или отчёт. GitHub Actions получает его через контекст `secrets`.
+<img width="987" height="240" alt="Снимок экрана 2026-09-21 в 04 59 40" src="https://github.com/user-attachments/assets/3c4d068a-8eea-4a86-bb09-ea6186ba4e4c" />
 
 ### 3. Настройка GitHub Actions
 
