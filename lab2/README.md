@@ -198,6 +198,8 @@ unauthorized: incorrect username or password
 ```
 
 Ошибка возникла из-за некорректных данных для авторизации в Docker Hub.
+<img width="1106" height="601" alt="Снимок экрана 2026-09-21 в 05 02 17" src="https://github.com/user-attachments/assets/689ab205-967e-47b7-aed2-e36112703755" />
+
 
 Для исправления проблемы в Docker Hub был создан Personal Access Token с правами **Read & Write**. После этого значение секрета `DOCKER_PASSWORD` в настройках GitHub Actions было заменено на созданный токен.
 
@@ -243,6 +245,8 @@ Add Lab 2 README
 ### 6. Проверка Docker Hub и локального запуска
 
 После успешного выполнения GitHub Actions в Docker Hub был опубликован тег:
+<img width="1442" height="734" alt="Снимок экрана 2026-09-21 в 05 04 10" src="https://github.com/user-attachments/assets/b8cc4785-713c-4fc8-8b1d-5545e639e249" />
+
 
 ```text
 haru1meow/my-flask-app:latest
@@ -271,6 +275,8 @@ docker run -p 5002:5000 --platform linux/amd64 haru1meow/my-flask-app:latest
 ```text
 Hello from Docker!
 ```
+<img width="1175" height="178" alt="Снимок экрана 2026-09-21 в 05 44 42" src="https://github.com/user-attachments/assets/f3f55305-f13a-4599-96a4-c077ed99c031" />
+
 
 Это подтверждает, что опубликованный в Docker Hub образ можно скачать и запустить, а Flask-приложение внутри контейнера корректно обрабатывает HTTP-запросы.
 
