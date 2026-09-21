@@ -1,0 +1,22 @@
+site_name: Haru Speaking Club
+site_description: Разговорные клубы английского и корейского языков
+site_author: Arutyun Surudzhyan
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+
+nav:
+  - Главная: index.md
+  - Обо мне: about.md
+  - Разговорные клубы: clubs.md
+  - Контакты: contacts.md
+
+extra_css:
+  - stylesheets/extra.css

@@ -1,0 +1,98 @@
+:root {
+  --haru-beige: #E8DDCF;
+  --haru-indigo: #3F51B5;
+  --haru-background: #FAF8F5;
+
+  --md-primary-fg-color: #E8DDCF;
+  --md-primary-fg-color--light: #F2EAE1;
+  --md-primary-fg-color--dark: #D5C5B3;
+
+  --md-accent-fg-color: #3F51B5;
+}
+
+body {
+  background-color: #FAF8F5;
+}
+
+.md-header {
+  background-color: #E8DDCF;
+  color: #2F2F2F;
+}
+
+.md-tabs {
+  background-color: #E8DDCF;
+  color: #2F2F2F;
+}
+
+a {
+  color: #3F51B5;
+}
+/* Карточки разговорных клубов */
+
+.haru-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 24px 0;
+}
+
+.haru-card {
+  background: #E8DDCF;
+  padding: 28px;
+  border-radius: 20px;
+}
+
+.haru-card h3 {
+  margin-top: 0;
+  color: #3F51B5;
+}
+
+/* Большие цифры */
+
+.haru-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 24px 0;
+}
+
+.haru-stat {
+  background: #E8DDCF;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.haru-number {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3F51B5;
+}
+
+@media (max-width: 700px) {
+  .haru-grid,
+  .haru-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+.haru-stats {
+  justify-content: start;
+  grid-template-columns: repeat(2, 260px);
+}
+
+.haru-stat {
+  text-align: left;
+}
+
+.haru-number {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.haru-flag {
+  font-size: 3rem;
+  vertical-align: middle;
+  margin-right: 12px;
+}
