@@ -165,6 +165,8 @@ Grafana была запущена в Docker-контейнере и подклю
 
 Для всех панелей использовалась визуализация `Time series`.
 
+<img width="1460" height="778" alt="Снимок экрана 2026-09-21 в 06 46 11" src="https://github.com/user-attachments/assets/c6beb5c1-f1be-4bb8-8d78-88fa35cd6078" />
+
 ---
 
 ## 7. Проверка работы
@@ -180,6 +182,8 @@ Grafana была запущена в Docker-контейнере и подклю
 - `grafana` — порт `3000`
 
 Все необходимые для лабораторной работы контейнеры имеют статус `Up`.
+<img width="1156" height="107" alt="Снимок экрана 2026-09-21 в 07 47 54" src="https://github.com/user-attachments/assets/2f5eaff3-6215-414e-aaee-ed4e2b4dcb14" />
+
 
 ---
 
@@ -190,3 +194,5 @@ Grafana была запущена в Docker-контейнере и подклю
 Node Exporter собирает системные метрики, Prometheus получает и хранит их, а Grafana используется для визуализации данных.
 
 Был создан Dashboard `System Monitoring` с графиками для мониторинга CPU, доступной оперативной памяти и дискового пространства.
+<img width="1122" height="244" alt="Снимок экрана 2026-09-21 в 07 48 47" src="https://github.com/user-attachments/assets/2682f973-2e8b-4c2e-93c4-67bba02c471e" />
+
